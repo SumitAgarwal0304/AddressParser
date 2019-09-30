@@ -1,0 +1,6 @@
+com\parsingaddress\rules\NumberAnyWhereTest.class
+com\parsingaddress\parser\ParserServiceTest.class
+com\parsingaddress\rules\HaveOnlyOneStringTest.class
+com\parsingaddress\rules\NumberInFirstTest.class
+com\parsingaddress\rules\NumberInLastTest.class
+com\parsingaddress\util\CommonUtilsTest.class

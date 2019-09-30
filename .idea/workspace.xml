@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cc962a1-a081-4432-aee6-29fcddfe5dce" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="181" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RTYS9ONKaZznhhbMHAewUF5Yqd" />
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.parsingaddress.controller" />
+      <recent name="com.parsingaddress.rules" />
+      <recent name="com.parsingaddress.main" />
+      <recent name="com.parsingaddress.util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.parsingaddress.rules" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.parsingaddress" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HaveOnlyOneStringTest">
+    <configuration name="AbstractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParsingAddress" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parsingaddress.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parsingaddress.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.parsingaddress.controller.AbstractTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HaveOnlyOneStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParsingAddress" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parsingaddress.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parsingaddress.rules" />
+      <option name="MAIN_CLASS_NAME" value="com.parsingaddress.rules.HaveOnlyOneStringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HaveOnlyOneStringTest.getTheValueFromRule_With_Only_Integer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParsingAddress" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parsingaddress.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parsingaddress.rules" />
+      <option name="MAIN_CLASS_NAME" value="com.parsingaddress.rules.HaveOnlyOneStringTest" />
+      <option name="METHOD_NAME" value="getTheValueFromRule_With_Only_Integer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParsingAddress" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parsingaddress.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parsingaddress.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.parsingaddress.controller.ParseControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseControllerTest.getParsedString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParsingAddress" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parsingaddress.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parsingaddress.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.parsingaddress.controller.ParseControllerTest" />
+      <option name="METHOD_NAME" value="getParsedString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HaveOnlyOneStringTest" />
+        <item itemvalue="JUnit.ParseControllerTest" />
+        <item itemvalue="JUnit.ParseControllerTest.getParsedString" />
+        <item itemvalue="JUnit.AbstractTest" />
+        <item itemvalue="JUnit.HaveOnlyOneStringTest.getTheValueFromRule_With_Only_Integer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cc962a1-a081-4432-aee6-29fcddfe5dce" name="Default Changelist" comment="" />
+      <created>1569692549729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569692549729</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ParsingAddress$All_in_ParsingAddress.ic" NAME="All in ParsingAddress Coverage Results" MODIFIED="1569876489301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

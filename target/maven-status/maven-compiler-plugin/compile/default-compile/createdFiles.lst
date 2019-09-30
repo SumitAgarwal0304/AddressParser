@@ -1,0 +1,10 @@
+com\parsingaddress\util\CommonUtils.class
+com\parsingaddress\dto\Address.class
+com\parsingaddress\rules\IRule.class
+com\parsingaddress\rules\NumberInFirst.class
+com\parsingaddress\rules\NumberInLast.class
+com\parsingaddress\rules\NumberAnyWhere.class
+com\parsingaddress\ParsingAddressMain.class
+com\parsingaddress\rules\HaveOnlyOneString.class
+com\parsingaddress\parser\ParserService.class
+com\parsingaddress\controller\ParseController.class
