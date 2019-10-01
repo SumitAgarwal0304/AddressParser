@@ -12,7 +12,9 @@ import java.util.List;
 public class ParserService {
 
     /**
+     * This method is used to parse address
      * @param givenAddress
+     * @return Address
      */
     public Address parseTheAddress(String givenAddress) {
 
@@ -27,6 +29,11 @@ public class ParserService {
         return address;
     }
 
+    /**
+     * This method is used to get the correct rule based on predicate
+     * @param givenAddress
+     * @return IRule
+     */
     private IRule getIRule(String givenAddress) {
         List<IRule> ruleList = setRulesForParsing();
 
@@ -39,7 +46,7 @@ public class ParserService {
      *
      * @return List of IRules
      */
-    private static final List<IRule> setRulesForParsing() {
+    private final List<IRule> setRulesForParsing() {
         List<IRule> ruleList = new ArrayList<>();
         ruleList.add(new HaveOnlyOneString());
         ruleList.add(new NumberInLast());

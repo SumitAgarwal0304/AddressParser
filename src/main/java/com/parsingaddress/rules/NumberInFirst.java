@@ -2,6 +2,9 @@ package com.parsingaddress.rules;
 
 import com.parsingaddress.dto.Address;
 
+/**
+ * This class is used when number is at start
+ */
 public class NumberInFirst implements IRule {
 
     @Override
@@ -10,6 +13,12 @@ public class NumberInFirst implements IRule {
         return givenAddress.substring(0, givenAddress.indexOf(" ")).matches(CONSTANT_REGEX);
     }
 
+    /**
+     * This rule gets the first number in the address
+     * splits it to housenumber and street
+     * @param givenAddress
+     * @return
+     */
     @Override
     public Address getTheValueFromRule(String givenAddress) {
 

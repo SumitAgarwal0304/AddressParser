@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cc962a1-a081-4432-aee6-29fcddfe5dce" name="Default Changelist" comment="" />
+    <list default="true" id="9cc962a1-a081-4432-aee6-29fcddfe5dce" name="Default Changelist" comment="Has added JavaDoc and comments">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParsingAddress.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/ParsingAddressMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/ParsingAddressMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/controller/ParseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/controller/ParseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/dto/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/dto/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/parser/ParserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/parser/ParserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/HaveOnlyOneString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/HaveOnlyOneString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/IRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/IRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/NumberAnyWhere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/NumberAnyWhere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/NumberInFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/NumberInFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/NumberInLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/rules/NumberInLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsingaddress/util/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsingaddress/util/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParsingAddress-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParsingAddress-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -31,10 +49,12 @@
   <component name="ProjectId" id="1RTYS9ONKaZznhhbMHAewUF5Yqd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -173,6 +193,21 @@
       <updated>1569692549729</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Has added JavaDoc and comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Has added JavaDoc and comments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ParsingAddress$All_in_ParsingAddress.ic" NAME="All in ParsingAddress Coverage Results" MODIFIED="1569876489301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -2,9 +2,12 @@ package com.parsingaddress.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
-import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL;
+import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_EMPTY;
 
-@JsonInclude(NON_NULL)
+/**
+ * This class is a DTO
+ */
+@JsonInclude(NON_EMPTY)
 public class Address {
 
     private String street;

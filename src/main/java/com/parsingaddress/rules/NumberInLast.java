@@ -3,6 +3,9 @@ package com.parsingaddress.rules;
 import com.parsingaddress.dto.Address;
 import com.parsingaddress.util.CommonUtils;
 
+/**
+ * This class is used when number is in Last
+ */
 public class NumberInLast implements IRule {
 
     @Override
@@ -17,6 +20,7 @@ public class NumberInLast implements IRule {
         String[] givenStringArray = givenAddress.split(" ");
         int length = givenStringArray.length;
 
+        //check if the string before number contains any string no.,no,Number,NO
         if (CommonUtils.containsGivenTypeOfString(givenStringArray[length - 2])) {
             address.setHousenumber(givenStringArray[length - 2] + " " + givenStringArray[length - 1]);
             address.setHousenumber(address.getHousenumber().replace(",", "").trim());

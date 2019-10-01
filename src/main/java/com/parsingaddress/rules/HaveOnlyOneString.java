@@ -2,6 +2,9 @@ package com.parsingaddress.rules;
 
 import com.parsingaddress.dto.Address;
 
+/**
+ * This class is used when only one string is present in given address
+ */
 public class HaveOnlyOneString implements IRule{
 
     @Override

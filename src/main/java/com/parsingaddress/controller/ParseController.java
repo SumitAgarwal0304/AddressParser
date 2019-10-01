@@ -16,14 +16,24 @@ import java.util.List;
 public class ParseController {
 
     @Autowired
-    ParserService parserService;
+    private ParserService parserService;
 
+    /**
+     * This method will take a single address
+     * @param address
+     * @return Json HouseNumber and Street
+     */
     @GetMapping
     public Address getParsedString(@RequestParam String address) {
         return parserService.parseTheAddress(address);
     }
 
 
+    /**
+     * This method will take list of strings as address
+     * @param address
+     * @return list of Address object(HouseNumber and Street)
+     */
     @GetMapping("/listOfAddress")
     public List<Address> getListOfParsedString(@RequestParam List<String> address){
 
